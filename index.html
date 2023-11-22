@@ -14,10 +14,10 @@
             <div class="nav__header">
               <h5 class="nav__logo">BrandName</h5>
               <ul class="nav__links">
-                <li><a href="#">home</a></li>
-                <li><a href="#">product</a></li>
-                <li><a href="#">pricing</a></li>
-                <li><a href="#">contact</a></li>
+                <li class="nav__link"><a href="#">home</a></li>
+                <li class="nav__link"><a href="#">product</a></li>
+                <li class="nav__link"><a href="#">pricing</a></li>
+                <li class="nav__link"><a href="#">contact</a></li>
               </ul>
             </div>
             <button class="nav__toggle">
@@ -26,10 +26,8 @@
             <div class="nav__auth">
               <button class="nav__login">login</button>
               <button class="nav__register">
-                become a member
-                <span>
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
-                </span>
+                Become a member
+                <ion-icon name="arrow-forward-outline"></ion-icon>
               </button>
             </div>
           </div>
@@ -64,18 +62,18 @@
               <ion-icon name="people-outline"></ion-icon>
             </div>
             <div class="assurance__body">
-              <h5 class="assurance__title">set for life</h5>
+              <h5 class="assurance__title">Set For Life</h5>
               <p class="assurance__text">
                 the quick fox jumps over the lazy dog
               </p>
             </div>
           </article>
-          <article class="assurance">
+          <article class="assurance assurance--bg">
             <div class="assurance__header">
               <ion-icon name="people-outline"></ion-icon>
             </div>
             <div class="assurance__body">
-              <h5 class="assurance__title">100% satisfaction</h5>
+              <h5 class="assurance__title">100% Satisfaction</h5>
               <p class="assurance__text">
                 the quick fox jumps over the lazy dog
               </p>
@@ -90,7 +88,7 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
             <div class="assurance__body--alt">
-              <h5 class="assurance__title--alt">peace of mind</h5>
+              <h5 class="assurance__title--alt">Peace of Mind</h5>
               <p class="assurance__text--alt">
                 So it really behaves like neither. Now we have given up.
               </p>
@@ -101,7 +99,7 @@
               <ion-icon name="bookmarks-outline"></ion-icon>
             </div>
             <div class="assurance__body--alt">
-              <h5 class="assurance__title--alt">set for life</h5>
+              <h5 class="assurance__title--alt">Set For Life</h5>
               <p class="assurance__text--alt">
                 They were used to create the machines that launched
               </p>
@@ -112,7 +110,7 @@
               <ion-icon name="people-outline"></ion-icon>
             </div>
             <div class="assurance__body--alt">
-              <h5 class="assurance__title--alt">100% satisfaction</h5>
+              <h5 class="assurance__title--alt">100% Satisfaction</h5>
               <p class="assurance__text--alt">
                 So it really behaves like neither. Now we have given up.
               </p>
@@ -129,54 +127,56 @@
               realms of Classical physics: Newtonian mechanics.
             </p>
           </div>
-          <article class="review">
-            <img src="./images/user1.png" alt="" />
-            <div class="review__body">
-              <p class="review__text">
-                Slate helps you see how many more days you need to work to reach
-                your financial goal for the month and year.
-              </p>
-            </div>
-            <div class="review__stars">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-            </div>
-          </article>
-          <article class="review">
-            <img src="./images/user2.png" alt="" />
-            <div class="review__body">
-              <p class="review__text">
-                Slate helps you see how many more days you need to work to reach
-                your financial goal for the month and year.
-              </p>
-            </div>
-            <div class="review__stars">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-            </div>
-          </article>
-          <article class="review">
-            <img src="./images/user3.png" alt="" />
-            <div class="review__body">
-              <p class="review__text">
-                Slate helps you see how many more days you need to work to reach
-                your financial goal for the month and year.
-              </p>
-            </div>
-            <div class="review__stars">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-            </div>
-          </article>
+          <div class="reviews__body">
+            <article class="review">
+              <img class="review__img" src="./images/user1.png" alt="" />
+              <div class="review__body">
+                <p class="review__text">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+              </div>
+              <div class="review__stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+            </article>
+            <article class="review">
+              <img class="review__img" src="./images/user2.png" alt="" />
+              <div class="review__body">
+                <p class="review__text">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+              </div>
+              <div class="review__stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+            </article>
+            <article class="review">
+              <img class="review__img" src="./images/user3.png" alt="" />
+              <div class="review__body">
+                <p class="review__text">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+              </div>
+              <div class="review__stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
       <div class="companies">
@@ -190,25 +190,29 @@
         </div>
       </div>
       <div class="subscription">
-       <div class="subscription--center content--center">
-        <h5 class="subscription__title">subscribe for the latest newsletter</h5>
-        <form class="subcription__form">
-          <input
-            class="sub-form__input"
-            type="email"
-            placeholder="your email"
-          />
-          <button class="sub-form__btn">subscribe</button>
-       </div>
-        </form>
+        <div class="subscription--center content--center">
+          <div>
+            <h5 class="subscription__title">
+              subscribe for the latest newsletter
+            </h5>
+            <form class="subscription__form">
+              <input
+                class="sub-form__input"
+                type="email"
+                placeholder="your email"
+              />
+              <button class="sub-form__btn">subscribe</button>
+            </form>
+          </div>
+        </div>
       </div>
-      <div class="pricing content--center">
-     <div class="pricing--center content--center">
-        <div class="pricing__header">
+      <div class="pricing">
+        <div class="pricing--center content--center">
+          <div class="pricing__header">
             <h5 class="pricing__title">pricing</h5>
             <p class="pricing__text">
-              Problem trying to resolve the conflict between the two major realms
-              of Classical physics: Newtonian mechanics
+              Problem trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
             </p>
           </div>
           <div class="pricing__body">
@@ -216,10 +220,10 @@
               <h5 class="card__title">free</h5>
               <p class="card__text">Organize across all apps by hand</p>
               <div class="card__price">
-                <span class="price__amount">0</span>
+                <p class="price__amount">0</p>
                 <div>
-                  <div class="price__currency">$</div>
-                  <div class="price__text">per month</div>
+                  <p class="price__currency">$</p>
+                  <p class="price__text">per month</p>
                 </div>
               </div>
               <ul class="pricing__info">
@@ -254,9 +258,9 @@
                   <p class="info__text">Email and community support</p>
                 </li>
               </ul>
-              <div class="pricing__btn">Try for free</div>
+              <button class="pricing__btn">Try for free</button>
             </article>
-            <article class="pricing__card">
+            <article class="pricing__card pricing__card--bg">
               <h5 class="card__title">standard</h5>
               <p class="card__text">Organize across all apps by hand</p>
               <div class="card__price">
@@ -298,7 +302,7 @@
                   <p class="info__text">Email and community support</p>
                 </li>
               </ul>
-              <div class="pricing__btn">Try for free</div>
+              <button class="pricing__btn">Try for free</button>
             </article>
             <article class="pricing__card pricing__card--dark">
               <h5 class="card__title">premium</h5>
@@ -342,30 +346,30 @@
                   <p class="info__text">Email and community support</p>
                 </li>
               </ul>
-              <div class="pricing__btn">Try for free</div>
+              <button class="pricing__btn">Try for free</button>
             </article>
           </div>
-     </div>
+        </div>
       </div>
       <div class="scope">
-       <div class="scope--center content--center">
-        <div class="scope__info">
+        <div class="scope--center content--center">
+          <div class="scope__info">
             <h5 class="scope__title">we have branches all over the world</h5>
             <p class="scope__text">
-              The gradual accumulation of information about atomic and small-scale
-              behavior during the first quarter of the 20th century, which gave
-              some indications about hw small things do behave, produced an
-              increasing confusion which was Heisenberg, and Born.
+              The gradual accumulation of information about atomic and
+              small-scale behavior during the first quarter of the 20th century,
+              which gave some indications about how small things do behave,
+              produced an increasing confusion which was Heisenberg, and Born.
             </p>
           </div>
           <div class="scope__img">
             <img src="./images/pingwig.png" alt="" />
           </div>
-       </div>
+        </div>
       </div>
       <div class="contact">
-      <div class="contact--center content--center">
-        <div class="contact__header">
+        <div class="contact--center content--center">
+          <div class="contact__header">
             <div class="contact__img">
               <img src="./images/contact.png" alt="picture of a family" />
             </div>
@@ -417,7 +421,7 @@
             </div>
             <button class="contact-footer__btn">contact us</button>
           </div>
-      </div>
+        </div>
       </div>
       <footer class="footer">
         <div class="content--center footer--center">
@@ -495,25 +499,19 @@
               <ul class="footer__links">
                 <li class="footer__link">
                   <a href="">
-                    <span>
-                      <ion-icon name="call-outline"></ion-icon>
-                    </span>
+                    <ion-icon name="call-outline"></ion-icon>
                     (480) 555-0103
                   </a>
                 </li>
                 <li class="footer__link">
                   <a href="">
-                    <span>
-                      <ion-icon name="location-outline"></ion-icon>
-                    </span>
+                    <ion-icon name="location-outline"></ion-icon>
                     4517 washington ave.
                   </a>
                 </li>
                 <li class="footer__link link--email">
                   <a href="">
-                    <span>
-                      <ion-icon name="mail-outline"></ion-icon>
-                    </span>
+                    <ion-icon name="mail-outline"></ion-icon>
                     debra.holt@example.com
                   </a>
                 </li>
