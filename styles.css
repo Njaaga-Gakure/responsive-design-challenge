@@ -13,7 +13,6 @@ html {
   --white: #fdfffc;
   --light-gray: #f4f4f5;
   --darker-gray: #d4d4d8;
-  --ash-gray: #9bab9f;
   --ash-gray: #557770;
   --p-clr: #003d5b;
 
@@ -640,6 +639,7 @@ button {
 .form {
   display: grid;
   gap: 1rem;
+  align-items: center;
   background-color: var(--white);
   padding: 2rem;
   border-radius: var(--border-radius);
@@ -664,7 +664,7 @@ button {
   width: 100%;
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
-  border: 1px solid var(--ash-gray);
+  border: 1px solid var(--darker-gray);
   background-color: var(--light-gray);
   outline: none;
 }
