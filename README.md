@@ -7,4 +7,4 @@ The following project challenge is part of the TEACH2GIVE .NET cohort curriculum
 ### Links
 
 [GitHub Link](https://github.com/Njaaga-Gakure/responsive-design-challenge)
-[Live Site Link]()
+[Live Site Link](https://responsive-design-challenge.vercel.app/)
